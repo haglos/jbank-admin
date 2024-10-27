@@ -156,7 +156,7 @@ export const AdminUsersComponent = ({ status }) => {
 
 
 
-                        {userList.map(data => <tr key={data.__id} onClick={() => editHandler(data._id)} >
+                        {userList.map(data => <tr key={data.__id}>
                             <td>
                                 {data.email}
                             </td>
